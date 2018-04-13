@@ -31,7 +31,13 @@ public class PTra03_04 {
 		 * ● しかし、400で割り切れるなら「～年はうるう年です。」と表示する
 		 *
 		 * ※ プログラムは何行書いても良いです
-		 */
+		 */if(num%4==0) {
+			 System.out.println("～うるう年です。");
+		 }else if(num%100==0) {
+			 System.out.println("～うるう年ではありません");
+		 }else if(num%400==0)
+			 System.out.println("～うるう年です。");
+
 
 
 	}

@@ -29,7 +29,11 @@ public class PTra03_07 {
 		 * ●1～5以外の数値を入力した場合は、「選択したのは,1～5以外です」を表示
 		 *
 		 * ※ プログラムは何行書いても良いです
-		 */
+		 */if(num>=1&&num<=5) {
+			 System.out.println(num);
+		 }else {
+			 System.out.println("「選択したのは、1～5以外です」");
+		 }
 
 
 	}
